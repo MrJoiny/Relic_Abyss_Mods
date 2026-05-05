@@ -1,0 +1,15 @@
+# Build output
+bin/
+obj/
+
+# Local game/decompiler artifacts. Do not publish game-owned files.
+Decompiled/
+
+# Local editor/user files
+.vs/
+.idea/
+*.user
+*.suo
+
+# Machine-local MSBuild settings
+Directory.Build.user.props

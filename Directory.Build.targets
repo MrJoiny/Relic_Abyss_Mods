@@ -1,0 +1,10 @@
+<Project>
+  <Target Name="ValidateGameRoot" BeforeTargets="ResolveAssemblyReferences">
+    <Error
+      Condition="!Exists('$(GameRoot)\Relic Abyss_Data\Managed\Assembly-CSharp.dll')"
+      Text="Set RELIC_ABYSS_GAME_ROOT or pass -p:GameRoot=... to the installed Relic Abyss folder. Expected '$(GameRoot)\Relic Abyss_Data\Managed\Assembly-CSharp.dll'." />
+    <Error
+      Condition="!Exists('$(GameRoot)\BepInEx\core\BepInEx.dll')"
+      Text="BepInEx was not found under GameRoot. Install BepInEx into '$(GameRoot)' or point GameRoot at a modded game folder." />
+  </Target>
+</Project>

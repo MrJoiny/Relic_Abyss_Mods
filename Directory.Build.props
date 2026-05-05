@@ -1,0 +1,8 @@
+<Project>
+  <Import Project="Directory.Build.user.props" Condition="Exists('Directory.Build.user.props')" />
+
+  <PropertyGroup>
+    <GameRoot Condition="'$(GameRoot)' == '' and '$(RELIC_ABYSS_GAME_ROOT)' != ''">$(RELIC_ABYSS_GAME_ROOT)</GameRoot>
+    <GameRoot Condition="'$(GameRoot)' == ''">$(MSBuildThisFileDirectory)..\..</GameRoot>
+  </PropertyGroup>
+</Project>
