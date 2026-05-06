@@ -7,7 +7,8 @@ BepInEx/Harmony mods for Relic Abyss. Each mod builds as a separate plugin DLL, 
 1. Install BepInEx for Unity Mono by following the official guide:
    https://docs.bepinex.dev/master/articles/user_guide/installation/unity_mono.html
 2. Start Relic Abyss once, then close it. This lets BepInEx create its folders.
-3. Download the DLLs you want from the latest GitHub release.
+3. Download the DLLs you want from the latest GitHub release:
+   https://github.com/MrJoiny/Relic_Abyss_Mods/releases/
 4. Copy the DLLs into:
 
 ```text
