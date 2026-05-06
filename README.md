@@ -1,4 +1,4 @@
-# RA Mods
+# Relic Abyss Mods
 
 BepInEx/Harmony mods for Relic Abyss. Each mod builds as a separate plugin DLL, so you can install only the fixes or quality-of-life changes you want.
 
@@ -19,6 +19,12 @@ BepInEx/Harmony mods for Relic Abyss. Each mod builds as a separate plugin DLL, 
 Config files are created under `BepInEx\config` after a plugin has loaded at least once.
 
 ## Mods
+
+### Advancement Text Fix
+
+Replaces advancement choice and stats-screen tooltip descriptions with values calculated from the advancement's actual runtime effect. The text accounts for rarity bonuses and already acquired advancement rarities instead of relying on the game's predefined placeholder descriptions.
+
+Config: none.
 
 ### Chest Interaction Priority
 
