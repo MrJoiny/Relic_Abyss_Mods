@@ -20,19 +20,19 @@ Config files are created under `BepInEx\config` after a plugin has loaded at lea
 
 ## Mods
 
-### Relic Abyss Chest Interaction Priority
+### Chest Interaction Priority
 
 Makes chests take priority over nearby equipment or relic pickups when the interaction prompt is choosing what to select. This helps when a chest and dropped loot are close together.
 
 Config: none.
 
-### Relic Abyss Deferred Advancement Shrine
+### Deferred Advancement Shrine
 
 Fixes the advancement shrine menu from opening while the game is not in normal gameplay. If the shrine tries to open at the wrong time, the mod waits and opens it once gameplay is active again.
 
 Config: none.
 
-### Relic Abyss Exp Buff Icon
+### Exp Buff Icon
 
 Adds a small on-screen indicator for active Experience Monolith buffs. The icon shows `EXP` and the current stack count.
 
@@ -44,7 +44,7 @@ Config file: `BepInEx\config\joiny.relicabyss.expbufficon.cfg`
 | `Buff Icon` | `Y` | `96` | Icon Y position in screen pixels. |
 | `Buff Icon` | `IconSize` | `84` | Icon size in screen pixels. Clamped between 56 and 160. |
 
-### Relic Abyss Instant Chest Drops
+### Instant Chest Drops
 
 Skips the chest reward UI and drops chest rewards immediately. Chest rarity still controls the number of reward rolls, and gold is spawned through the game's normal chest gold logic.
 
@@ -54,7 +54,13 @@ Config file: `BepInEx\config\joiny.relicabyss.instantchestdrops.cfg`
 | --- | --- | --- | --- |
 | `Chest Drops` | `DropEquipmentOnGround` | `true` | When enabled, equipment rewards always drop on the ground. When disabled, equipment is added to inventory first and only drops if the inventory is full. |
 
-### Relic Abyss Instant Shrines
+### Hub No Dash Cooldown
+
+Disables the player dash cooldown while in Horizon's End, the hub city with the shops. Combat levels keep the normal dash cooldown.
+
+Config: none.
+
+### Instant Shrines
 
 Activates supported shrine types without opening their dialogue first. Fusion shrines are only instant for the upgrade path; combine fusion keeps the vanilla interaction.
 
@@ -68,13 +74,13 @@ Config file: `BepInEx\config\joiny.relicabyss.instantshrines.cfg`
 | `Instant Shrines` | `Experience` | `true` | Instantly activate experience monoliths. |
 | `Instant Shrines` | `Advancement` | `true` | Instantly activate advancement shrines. |
 
-### Relic Abyss Magnet Pickup Fix
+### Magnet Pickup Fix
 
 Calls the pickup magnetize logic for magnetized gold and item pickups so they become collectible while being pulled in.
 
 Config: none.
 
-### Relic Abyss Player Effects Visibility
+### Player Effects Visibility
 
 Adds an effect visibility control for player-owned effects. It changes alpha on player particle systems, sprites, trails, and line renderers while leaving enemy effects alone.
 
@@ -87,7 +93,7 @@ Config file: `BepInEx\config\joiny.relicabyss.playereffectsvisibility.cfg`
 | `Settings UI` | `AddSettingsSlider` | `true` | Add an `Effect Visibility` slider to the game's settings UI. |
 | `Settings UI` | `ShowSettingsFallbackOverlay` | `false` | Show a small fallback slider while the settings menu is open. |
 
-### Relic Abyss Training Fix
+### Training Fix
 
 Patches the training max-rank purchase guard from 9 to 10, allowing the final training rank to be bought.
 
