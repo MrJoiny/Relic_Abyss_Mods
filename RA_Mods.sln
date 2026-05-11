@@ -19,9 +19,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelicAbyssExpBuffIcon", "Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelicAbyssInstantShrines", "RelicAbyssInstantShrines\RelicAbyssInstantShrines.csproj", "{99C9436A-BE3E-4334-87EF-FF3C0FD67C78}"
 EndProject
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelicAbyssAdvancementTextFix", "RelicAbyssAdvancementTextFix\RelicAbyssAdvancementTextFix.csproj", "{6BB0EE20-0A80-4652-9B94-EAAA196A2C61}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelicAbyssHubNoDashCooldown", "RelicAbyssHubNoDashCooldown\RelicAbyssHubNoDashCooldown.csproj", "{A710044A-888C-4C7C-A3C7-AB17BBBDBA7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelicAbyssChestStatue", "RelicAbyssChestStatue\RelicAbyssChestStatue.csproj", "{ECD7481B-9EFC-459D-A205-C3A13F70D3E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,18 @@ Global
 		{A710044A-888C-4C7C-A3C7-AB17BBBDBA7E}.Release|x64.Build.0 = Release|Any CPU
 		{A710044A-888C-4C7C-A3C7-AB17BBBDBA7E}.Release|x86.ActiveCfg = Release|Any CPU
 		{A710044A-888C-4C7C-A3C7-AB17BBBDBA7E}.Release|x86.Build.0 = Release|Any CPU
+		{ECD7481B-9EFC-459D-A205-C3A13F70D3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD7481B-9EFC-459D-A205-C3A13F70D3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD7481B-9EFC-459D-A205-C3A13F70D3E9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ECD7481B-9EFC-459D-A205-C3A13F70D3E9}.Debug|x64.Build.0 = Debug|Any CPU
+		{ECD7481B-9EFC-459D-A205-C3A13F70D3E9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ECD7481B-9EFC-459D-A205-C3A13F70D3E9}.Debug|x86.Build.0 = Debug|Any CPU
+		{ECD7481B-9EFC-459D-A205-C3A13F70D3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD7481B-9EFC-459D-A205-C3A13F70D3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD7481B-9EFC-459D-A205-C3A13F70D3E9}.Release|x64.ActiveCfg = Release|Any CPU
+		{ECD7481B-9EFC-459D-A205-C3A13F70D3E9}.Release|x64.Build.0 = Release|Any CPU
+		{ECD7481B-9EFC-459D-A205-C3A13F70D3E9}.Release|x86.ActiveCfg = Release|Any CPU
+		{ECD7481B-9EFC-459D-A205-C3A13F70D3E9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

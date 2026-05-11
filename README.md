@@ -33,6 +33,18 @@ Makes chests take priority over nearby equipment or relic pickups when the inter
 
 Config: none.
 
+### Chest Statue
+
+Adds a Chest statue that can appear in the world. If you pay the shrine, you can send up to three items to the Rewards page in Horizon's End. It uses the built-in ChestStatue dialogue.
+
+Config file: `BepInEx\config\joiny.relicabyss.cheststatue.cfg`
+
+| Section | Key | Default | Description |
+| --- | --- | --- | --- |
+| `Chest Statue` | `Enabled` | `true` | Enables the chest statue shrine. |
+| `Spawning` | `SpawnAttemptsPerChunk` | `1` | Chest statue spawn rolls per generated chunk. |
+| `Spawning` | `SpawnChancePercent` | `7.5` | Chance for each spawn roll. |
+
 ### Deferred Advancement Shrine
 
 Fixes the advancement shrine menu from opening while the game is not in normal gameplay. If the shrine tries to open at the wrong time, the mod waits and opens it once gameplay is active again.
@@ -84,25 +96,6 @@ Config file: `BepInEx\config\joiny.relicabyss.instantshrines.cfg`
 ### Magnet Pickup Fix
 
 Calls the pickup magnetize logic for magnetized gold and item pickups so they become collectible while being pulled in.
-
-Config: none.
-
-### Player Effects Visibility
-
-Adds an effect visibility control for player-owned effects. It changes alpha on player particle systems, sprites, trails, and line renderers while leaving enemy effects alone.
-
-Config file: `BepInEx\config\joiny.relicabyss.playereffectsvisibility.cfg`
-
-| Section | Key | Default | Description |
-| --- | --- | --- | --- |
-| `Player Effects` | `VisibilityPercent` | `100` | Player-owned effect visibility from 0 to 100. |
-| `Player Effects` | `IncludePlayerAttackColliders` | `true` | Also affect spawned objects outside the player pool when they contain a player-owned `AttackCollider`. |
-| `Settings UI` | `AddSettingsSlider` | `true` | Add an `Effect Visibility` slider to the game's settings UI. |
-| `Settings UI` | `ShowSettingsFallbackOverlay` | `false` | Show a small fallback slider while the settings menu is open. |
-
-### Training Fix
-
-Patches the training max-rank purchase guard from 9 to 10, allowing the final training rank to be bought.
 
 Config: none.
 
