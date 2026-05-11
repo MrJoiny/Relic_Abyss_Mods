@@ -79,6 +79,12 @@ Disables the player dash cooldown while in Horizon's End, the hub city with the 
 
 Config: none.
 
+### Level Up Stats Fix
+
+Makes the new stat-card page appear only on every 5th level-up, prevents it from replacing advancement shrine choices, and makes stat-card banishes stay banished when the page is refreshed.
+
+Config: none.
+
 ### Instant Shrines
 
 Activates supported shrine types without opening their dialogue first. Fusion shrines are only instant for the upgrade path; combine fusion keeps the vanilla interaction.
@@ -96,6 +102,12 @@ Config file: `BepInEx\config\joiny.relicabyss.instantshrines.cfg`
 ### Magnet Pickup Fix
 
 Calls the pickup magnetize logic for magnetized gold and item pickups so they become collectible while being pulled in.
+
+Config: none.
+
+### Manual Dropped Pickups
+
+Makes items dropped from the inventory require manual interaction to collect. Dropped consumables and stackable items still use the game's normal pickup logic once you interact with them, and items that do not fit stay on the ground.
 
 Config: none.
 
